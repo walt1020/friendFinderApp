@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FriendFinder</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
+</head>
+<body>
+
+	<div class="container">
+		<h2>Survey Questions</h2>
+		<hr>
+
+		<h3><b>About You</b></h3>
+		<h4 class="mainInput">Name (Required)</h4>
+		<input type="text" name="" id="name" class="form-control">
+
+		<h4 class="mainInput">Link to Photo Image (Required)</h4>
+		<input type="text" name="" id="image" class="form-control">
+
+		<hr>
+
+		<h3 class="question"><b>Question 1</b></h3>
+		<h4>Cats are the rulers of the internet</h4>
+	 	<select class="selectpicker" id="q1" title="Choose one of the following...">
+	        <option value="1">1 (strongly disagree)</option>
+            <option value="2">2 (somewhat disagree)</option>
+            <option value="3">3 (neutral)</option>
+            <option value="4">4 (somewhat agree)</option>
+            <option value="5">5 (strongly agree)</option>
+      	</select>
+
+		<h3 class="question"><b>Question 2</b></h3>
+		<h4>Call of Duty is Better than Battlefield</h4>
+	 	<select  class="selectpicker" id="q2" title="Choose one of the following...">
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2 (somewhat disagree)</option>
+            <option value="3">3 (neutral)</option>
+            <option value="4">4 (somewhat agree)</option>
+            <option value="5">5 (strongly agree)</option>
+      	</select>
+
+
+		<h3 class="question"><b>Question 3</b></h3>
+		<h4>Xbox and PS4 are better than PC</h4>
+	 	<select class="selectpicker" id="q3" title="Choose one of the following...">
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2 (somewhat disagree)</option>
+            <option value="3">3 (neutral)</option>
+            <option value="4">4 (somewhat agree)</option>
+            <option value="5">5 (strongly agree)</option>
+      	</select>
+
+
+		<h3 class="question"><b>Question 4</b></h3>
+		<h4>Lakes are better than oceans</h4>
+	 	<select class="selectpicker" id="q4" title="Choose one of the following...">
+        	<option value="1">1 (strongly disagree)</option>
+            <option value="2">2 (somewhat disagree)</option>
+            <option value="3">3 (neutral)</option>
+            <option value="4">4 (somewhat agree)</option>
+            <option value="5">5 (strongly agree)</option>
+      	</select>
+
+
+		<h3 class="question"><b>Question 5</b></h3>
+		<h4>Forrest Gump is a Great Movie</h4>
+	 	<select class="selectpicker" id="q5" title="Choose one of the following...">
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2 (somewhat disagree)</option>
+            <option value="3">3 (neutral)</option>
+            <option value="4">4 (somewhat agree)</option>
+            <option value="5">5 (strongly agree)</option>
+      	</select>
+
+
+		<h3 class="question"><b>Question 6</b></h3>
+		<h4>Hamburgers are more delicious than hot dogs</h4>
+	 	<select class="selectpicker" id="q6" title="Choose one of the following...">
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2 (somewhat disagree)</option>
+            <option value="3">3 (neutral)</option>
+            <option value="4">4 (somewhat agree)</option>
+            <option value="5">5 (strongly agree)</option>
+      	</select>
+
+
+		<h3 class="question"><b>Question 7</b></h3>
+		<h4>Bob Ross is a Joy to Listen To</h4>
+	 	<select class="selectpicker" id="q7" title="Choose one of the following...">
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2 (somewhat disagree)</option>
+            <option value="3">3 (neutral)</option>
+            <option value="4">4 (somewhat agree)</option>
+            <option value="5">5 (strongly agree)</option>
+      	</select>
+
+		<h3 class="question"><b>Question 8</b></h3>
+		<h4>Smooth Peanut Butter All the Way</h4>
+	 	<select class="selectpicker" id="q8" title="Choose one of the following...">
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2 (somewhat disagree)</option>
+            <option value="3">3 (neutral)</option>
+            <option value="4">4 (somewhat agree)</option>
+            <option value="5">5 (strongly agree)</option>
+      	</select>
+
+		<h3 class="question"><b>Question 9</b></h3>
+		<h4>Sports Cars are better than Muscle Cars</h4>
+	 	<select class="selectpicker" id="q9" title="Choose one of the following...">
+            <option value="1">1 (strongly daisagree)</option>
+            <option value="2">2 (somewhat disagree)</option>
+            <option value="3">3 (neutral)</option>
+            <option value="4">4 (somewhat agree)</option>
+            <option value="5">5 (strongly agree)</option>
+      	</select>
+
+		<h3 class="question"><b>Question 10</b></h3>
+		<h4>The Earth is Flat</h4>
+	 	<select class="selectpicker" id="q10" title="Choose one of the following...">
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2 (somewhat disagree)</option>
+            <option value="3">3 (neutral)</option>
+            <option value="4">4 (somewhat agree)</option>
+            <option value="5">5 (strongly agree)</option>
+      	</select>
+
+		<br>
+		<br>
+
+		<button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle"></i>  Submit</button>
+
+		<hr>
+	    <footer class="footer">
+	      <div class="container">
+		        <p><a href="/api" target="_blank">API Friends List</a> | <a href="https://github.com/m081779/FriendFinder" target="_blank">GitHub Repo</a></p>
+	      </div>
+	    </footer>
+
+	</div>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content text-center">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Here is your best match:</h4>
+      </div>
+      <div class="modal-body">
+        <img id="modalImage" class="well" src="" alt="">
+        <h3 id="modalName" class="text-danger"></h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script type="text/javascript">
+  	$(document).ready(function () {
+  		//flag variable for validation
+  		var inputComplete = false;
+  		var clicked = false;
+  		
+		//click handler for submit button
+  		$( '#submit' ).on( 'click', function ( event ) {
+  			event.preventDefault();
+  			//capturing values from form inputs
+  			var name = $( '#name' ).val().trim();
+  			var photo = $( '#image' ).val().trim();
+  			//triggering warning message if inputs are incomplete
+  			if (!clicked) {
+  				if ( name === '' || photo === '') {
+	  				inputComplete = false;
+	  				var error = $( '<span class="text-danger">' ).text('  You must fill out this field!');
+	  				$( '.mainInput' ).append( error )
+	  				clicked = true;
+	  			} else {
+	  				inputComplete = true;
+	  			}
+  			}
+  			if ( inputComplete ) {
+  				//creating object from inputs/questions
+  				var newFriend = {
+					name,
+					photo,
+					scores:[]
+				}
+				for ( var i = 1; i <= 10; i++ ) {
+					var score = $( '#q'+ i ).val() || "3"
+					newFriend.scores.push( score );
+					$( '#q'+ i ).val('').selectpicker('refresh');
+				}
+				//clearing inputs
+				$( '#name' ).val( '' );
+				$( '#image' ).val( '' );
+				
+				//posting new user to the api
+	  			$.post("/api/friends", newFriend)
+	  			.done(function(data) {});
+	  			//getting best match data from backend, and passing the data to the modal
+				$.get("/bestFriend", function (data2) {
+	        		$('#myModal').modal('toggle');
+	        		$('#modalName').text(data2.friend.name);
+	        		$('#modalImage').attr("src", data2.friend.photo);
+		        });	
+  			}
+  		});
+  	});
+  </script>
+</body>
+</html>

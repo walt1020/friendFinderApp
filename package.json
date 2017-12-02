@@ -1,0 +1,26 @@
+{
+  "name": "friend_finder_app",
+  "version": "1.0.0",
+  "description": "A glorified \"dating\" app that matches you up with people based on 110 survey questions",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walt1020/friendFinderApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walt1020/friendFinderApp/issues"
+  },
+  "homepage": "https://github.com/walt1020/friendFinderApp#readme"
+}
